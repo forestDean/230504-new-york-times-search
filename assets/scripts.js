@@ -1,6 +1,6 @@
-$(document).ready(function () {
+window.onload = function(){
     
-    //console.log("Hi");
+//console.log("Hi");
 
 //when search button is clicked
 $("#searchButton").on("click", function (event) {
@@ -41,5 +41,5 @@ $("#searchButton").on("click", function (event) {
       });
     });
   
-});
+};
   
