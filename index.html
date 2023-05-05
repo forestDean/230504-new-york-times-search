@@ -19,16 +19,19 @@
   <body>
              
       <div class="container">
-        <div class="row header align-items-center p-2">
+
+        <div class="row header align-items-center px-2 py-3">
           <div class="col-sm-2">
-            <img src="./assets/images/new-york-times-icon2-white.png" height=100px width=100px>
+            <img src="./assets/images/new-york-times-icon2-white.png" height=80px width=80px alt="New York Times logo">
           </div>
           <div class="col-sm-8 py-auto">
             <h1>New York Times Search</h1>
           </div>    
           <div class="col-sm-2">
-        </div>    
+        </div> 
+
         </div class="row">
+
           <form>
             <div class="formhead px-3 mb-3 py-1">
               <legend>Search Parameters</legend>
@@ -50,14 +53,19 @@
               <input type="text" class="form-control" id="endYear" placeholder="2023">
             </div>
             <div class="row form-group mt-4">
-              <div class="col-sm-6"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">Search</button></div>
-              <div class="col-sm-6"><button type="button" class="btn btn-outline-dark btn-lg btn-block">Clear</button></div>
+              <div class="col-sm-6"><button type="button" class="btn btn-lg btn-block">Search</button></div>
+              <div class="col-sm-6"><button type="button" class="btn btn-lg btn-block">Clear</button></div>
             </div>
           </form>
+        
         </div>
-        <div class="row">
-          <!-- SEARCH RESULTS GO HERE -->
-        </div>
+        
+
+        <!-- <div class="row" id="topArticles">
+          <div class="col-sm-12"><h4>Top Articles</h4></div>
+          <div class="col-sm-12" id="searchResult"></div>
+         SEARCH RESULTS GO HERE
+        </div> -->
 
 
 
