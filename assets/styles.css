@@ -11,17 +11,13 @@ body {
  .container {
   width: 800px;
   margin-top: 20px;
-  /* border: 1px solid red; */
  } 
 
  .header {
   background-color:rgb(50, 104, 145);
-  /* margin: 0 8px; */
-  
  }
 
 h1 {
-  /* border: 1px solid red; */
   text-align: center;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -95,12 +91,9 @@ footer a {
   font-weight: bold;
 }
 
-
-
-
-
-
-
+.credits {
+  font-size: 16px ;
+}
 
 
 /* ================= RESPONSIVE MEDIA QUERIES ================= */
@@ -115,7 +108,9 @@ No media query since this is the default in Bootstrap */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+  .credits {
+    font-size: smaller ;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -125,5 +120,5 @@ No media query since this is the default in Bootstrap */
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+  
 }

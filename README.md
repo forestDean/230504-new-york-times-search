@@ -10,7 +10,7 @@ The project was a group tasks utilising a *shared GitHub repository* and the *Gi
 It is designed to:
 * Allow the User to input `Search` terms.
 * Return a selection of relevant news articles.
-* `Clear` and allow repeted searches.
+* `Clear` and allow repeated searches.
 
 The **New York Times Article Search** has been optimised for various display sizes using responsive CSS design & Bootstrap.  
 
