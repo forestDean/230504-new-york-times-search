@@ -41,5 +41,9 @@ $("#searchButton").on("click", function (event) {
       });
     });
   
+    $("#clearButton").on( "click", function() {
+        history.go(0);   
+      } );
+
 };
   
