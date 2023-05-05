@@ -41,6 +41,7 @@ $("#searchButton").on("click", function (event) {
       });
     });
   
+    //refresh page & clear
     $("#clearButton").on( "click", function() {
         history.go(0);   
       } );
