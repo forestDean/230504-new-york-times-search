@@ -63,6 +63,23 @@ form {
   border: 1px solid red;
 }
 
+#searchResult{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+}
+
+#searchResult div{
+  padding:1rem !important;
+  margin-bottom: 1rem !important;
+  width:max(50%,300px);
+}
+
+#searchResult p{
+  color: rgb(84, 86, 98) !important;
+}
+
 
 
 
