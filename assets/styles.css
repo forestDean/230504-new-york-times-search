@@ -60,7 +60,13 @@ form {
 }
 
 #topArticles {
-  border: 1px solid red;
+  margin-top: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.articleHead {
+  background-color:rgba(50, 104, 145, 0.1);
 }
 
 #searchResult{
@@ -80,7 +86,9 @@ form {
   color: rgb(84, 86, 98) !important;
 }
 
-
+#searchResult {
+padding-bottom: 20px;
+}
 
 
 
